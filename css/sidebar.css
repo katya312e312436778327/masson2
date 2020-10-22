@@ -1,0 +1,57 @@
+nav {
+  display: block;
+  position: fixed;
+  left: 22px;
+  top: 15px;
+  height: 539px;
+  width:  427px;
+  box-sizing: border-box;
+  margin-bottom: 60%;
+
+
+}
+ nav img {
+   margin-left: 32.29px;
+   margin-top: 0px;
+   width: 281px;
+   height: 188px;
+   margin-bottom: 5px;
+
+ }
+
+nav hr#fhr {
+  margin-left: 0.5px;
+  width: 338px;
+  margin-top: 24px;
+  margin-bottom: -2px;
+}
+
+nav a {
+  font-family: 'Stratos LC Web';
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 30.23px;
+
+}
+nav ul li {
+
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: px;
+}
+
+nav li {
+  padding-top: 10px;
+  padding-bottom: 23px;
+  line-height: 30px;
+
+}
+nav ul, nav li {
+  width: 100%;
+}
+
+nav li#gen {
+  line-height: 30px;
+}
