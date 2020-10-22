@@ -1,0 +1,20 @@
+/*<head>
+  <link rel="stylesheet" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+
+  <title></title>
+  <style media="screen">
+    @import "reset.css";
+    body {
+      font-family: 'PT Sans Caption', sans-serif;
+    }
+
+    ```css */
+
+* {
+  box-sizing: border-box;
+}
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'PT Sans', sans-serif;
+}
+ a { color: inherit; font-family: 'PT Sans Caption'
+}
