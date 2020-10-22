@@ -1,0 +1,246 @@
+
+
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Stratos LC Web', sans-serif;
+}
+
+hr {
+  border-color: black;
+  width: 604px;
+  margin-left: 447px;
+  margin-top: 13px;
+  margin-bottom: 40px;
+
+}
+
+img {
+object-fit: cover;
+width: 604px;
+height: 256px;
+margin-left: 447px;
+margin-top: 22px;
+margin-bottom: 27px;
+}
+
+img#fix {
+  position: fixed;
+  width: 311px;
+  height: 851px;
+
+  margin-left: 1129px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/*img:first-child {
+  margin-bottom: 50px;
+  display: block;*/
+
+}
+/*img#list {
+  margin-bottom: 50px;
+}*/
+
+.list {
+ margin-bottom: 61.5px;
+ margin-top: 61.5px;
+
+}
+
+
+h2 {
+
+height: 95px;
+width: 1059px;
+font-family: 'Stratos';
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 45px;
+margin-bottom: -20px;
+color: #000000;
+margin-left: 24px;
+
+}
+
+h1{
+color: #AD3D27;
+position: absolute;
+margin-top: 70px;
+width: 217px;
+height: 181px;
+margin-left: 492px;
+font-family: 'Stratos';
+font-style: normal;
+font-weight: 900;
+font-size: 144px;
+line-height: 181px;
+transform: rotate(-2.5deg);
+
+}
+
+h4 {
+  width: 151px;
+  height: 45px;
+  margin-left: 446px;
+  font-family: 'Stratos LC Web';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  color: #FFFFFF;
+  background-color: black;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 6px;
+  text-decoration: none;
+  display: inline-block;
+
+
+}
+h4#dest {
+  width: 356px;
+  height: 52px;
+  padding-top: 9px;
+}
+
+h6 {
+height: 18px;
+font-family: 'Stratos LC Web';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 18px;
+color: #000000;
+
+}
+
+h6#right {
+width: 116px;
+margin-left: 515px;
+margin-bottom: -29px;
+margin-top: -30px;
+}
+
+h6#cookie {
+width: 87px;
+margin-left: 729px;
+margin-bottom: -59px;
+margin-top: 10px;
+/*margin-bottom: -59px;*/
+}
+
+h6#privacy {
+width: 89px;
+margin-left: 892px;
+margin-top: 40px;
+margin-bottom: 4px;
+
+}
+
+p {
+/*width: 616px;
+height: 455px;
+margin-left: 447px;
+/*top: 380px;*/
+font-family: 'Stratos LC Web';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+color: #000000;
+margin: 10px 391px 10px 447px;
+}
+
+p#lit {
+  width: 224px;
+  height: 78px;
+  font-family: 'Stratos LC Web';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 36px;
+  margin-top: 277px;
+  margin-left: 492px;
+}
+
+img#first {
+  margin-top: 35px;
+}
+
+
+
+img#ab {
+  width: 143px;
+}
+
+/*img#ab:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}*/
+
+img#fl {
+  width: 288px
+
+}
+
+img#ld {
+  width: 89px;
+
+}
+
+img#symb {
+  width: 324px;
+
+}
+
+
+hr#last {
+  margin-top: 93px;
+}
+
+p#post {
+  margin-top: 32px;
+  margin-left: 25px;
+  height: 60px;
+  width: 531px;
+}
+
+p#num {
+  height: 60px;
+  width: 195px;
+  margin-left: 710px;
+  margin-top: -65px;
+
+}
+img#fb {
+  width: 36px;
+  height: 41px;
+  margin-left: 34px;
+  margin-top: -40px;
+  margin-bottom: 17px;
+}
+
+img#inst {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  margin-left: 2%;
+  margin-top: -29px;
+
+}
+
+img#vk {
+  position: absolute;
+  width: 38px;
+  height: 41px;
+  margin-top: -40px;
+  margin-left: 5.5%;
+  margin-bottom: -14px;
+}
+
+#ab_img:hover #first_img {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
