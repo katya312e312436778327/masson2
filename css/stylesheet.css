@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'Stratos LC Web';
+    src: url('StratosLCWeb-Bold.woff2') format('woff2'),
+        url('StratosLCWeb-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos LC Web';
+    src: url('StratosLCWeb-Regular.woff2') format('woff2'),
+        url('StratosLCWeb-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos LC Web';
+    src: url('StratosLCWeb-Medium.woff2') format('woff2'),
+        url('StratosLCWeb-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos LC Web';
+    src: url('StratosLCWeb-Light.woff2') format('woff2'),
+        url('StratosLCWeb-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Stratos LC Web';
+    src: local('Stratos LC Web Bold'), local('StratosLCWeb-Bold'),
+        url('StratosLCWeb-Bold.woff2') format('woff2'),
+        url('StratosLCWeb-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos LC Web';
+    src: local('Stratos LC Web'), local('StratosLCWeb-Regular'),
+        url('StratosLCWeb-Regular.woff2') format('woff2'),
+        url('StratosLCWeb-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos LC Web';
+    src: local('Stratos LC Web Medium'), local('StratosLCWeb-Medium'),
+        url('StratosLCWeb-Medium.woff2') format('woff2'),
+        url('StratosLCWeb-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos LC Web';
+    src: local('Stratos LC Web Light'), local('StratosLCWeb-Light'),
+        url('StratosLCWeb-Light.woff2') format('woff2'),
+        url('StratosLCWeb-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos Bold'), local('Stratos-Bold'),
+        url('Stratos-Bold.woff2') format('woff2'),
+        url('Stratos-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos Black Italic'), local('Stratos-BlackItalic'),
+        url('Stratos-BlackItalic.woff2') format('woff2'),
+        url('Stratos-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos Black'), local('Stratos-Black'),
+        url('Stratos-Black.woff2') format('woff2'),
+        url('Stratos-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos ExtraBold'), local('Stratos-ExtraBold'),
+        url('Stratos-ExtraBold.woff2') format('woff2'),
+        url('Stratos-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos Bold Italic'), local('Stratos-BoldItalic'),
+        url('Stratos-BoldItalic.woff2') format('woff2'),
+        url('Stratos-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos ExtraBold Italic'), local('Stratos-ExtraBoldItalic'),
+        url('Stratos-ExtraBoldItalic.woff2') format('woff2'),
+        url('Stratos-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos ExtraLight'), local('Stratos-ExtraLight'),
+        url('Stratos-ExtraLight.woff2') format('woff2'),
+        url('Stratos-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos ExtraLight Italic'), local('Stratos-ExtraLightItalic'),
+        url('Stratos-ExtraLightItalic.woff2') format('woff2'),
+        url('Stratos-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos Italic'), local('Stratos-Italic'),
+        url('Stratos-Italic.woff2') format('woff2'),
+        url('Stratos-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos Medium'), local('Stratos-Medium'),
+        url('Stratos-Medium.woff2') format('woff2'),
+        url('Stratos-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos Light'), local('Stratos-Light'),
+        url('Stratos-Light.woff2') format('woff2'),
+        url('Stratos-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos Light Italic'), local('Stratos-LightItalic'),
+        url('Stratos-LightItalic.woff2') format('woff2'),
+        url('Stratos-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos SemiBold'), local('Stratos-SemiBold'),
+        url('Stratos-SemiBold.woff2') format('woff2'),
+        url('Stratos-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos Medium Italic'), local('Stratos-MediumItalic'),
+        url('Stratos-MediumItalic.woff2') format('woff2'),
+        url('Stratos-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos Regular'), local('Stratos-Regular'),
+        url('Stratos-Regular.woff2') format('woff2'),
+        url('Stratos-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos SemiBold Italic'), local('Stratos-SemiBoldItalic'),
+        url('Stratos-SemiBoldItalic.woff2') format('woff2'),
+        url('Stratos-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos Thin'), local('Stratos-Thin'),
+        url('Stratos-Thin.woff2') format('woff2'),
+        url('Stratos-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos SemiLight';
+    src: local('Stratos SemiLight Italic'), local('Stratos-SemiLightItalic'),
+        url('Stratos-SemiLightItalic.woff2') format('woff2'),
+        url('Stratos-SemiLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos SemiLight';
+    src: local('Stratos SemiLight'), local('Stratos-SemiLight'),
+        url('Stratos-SemiLight.woff2') format('woff2'),
+        url('Stratos-SemiLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: local('Stratos Thin Italic'), local('Stratos-ThinItalic'),
+        url('Stratos-ThinItalic.woff2') format('woff2'),
+        url('Stratos-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
