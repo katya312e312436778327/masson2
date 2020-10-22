@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascripts/jquery-3.5.1.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+    $(function() {
+	  $('.sidebar a').each(function() {
+		$(this).on('click', function(e) {
+			e.preventDefault();
+			var scrollTo = $(this).attr('href');
+			var whitespace = scrollTo == '#s1' ? 70 : 30;
+			$('html,body').animate({
+				scrollTop: $(scrollTo).offset().top - whitespace
+      }, 800);
+		  });
+	  });
+  });
+
+    </script>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+
+    div {
+      display: flex;
+      position: absolute;
+    }
+
+    .cover {
+     object-fit: cover;
+     width: 604px;
+     height: 256px;
+   }
+   .cover1 {
+     object-fit: cover;
+     width: 333px;
+     height: 881px;
+   }
+   .vertical {
+     position: absolute;
+     margin-top: -380px;
+     width: 267px;
+     height: 352px;
+     margin-left: 787px;
+     object-fit: cover;
+   }
+
+   .list {
+    margin-bottom: 0px;
+    margin-top: 71px;
+    -webkit-filter: grayscale(99%);
+    filter: grayscale(99%);
+   }
+
+   .list:hover {
+     -webkit-filter: grayscale(0%);
+     filter: grayscale(0%);
+   }
+
+   .name {
+     height: 30px;
+     left: 444px;
+     margin-top: 22px;
+     object-fit: fill;
+
+   }
+   .sidebar li {
+
+     border-bottom: 4px solid black;
+     width: 338px;
+   }
+   .div1 {
+     display: inline;
+     margin-bottom: -29px;
+     margin-top: 60px;
+     padding: 1rem;
+   }
+
+   p {
+    font-family: 'Stratos LC Web';
+  }
+
+    </style>
+
+  </head>
+
+  <article class="content">
+  <body>
+
+
+
+    <nav class="sidebar">
+
+        <a href="fix"><img src="images/title.svg" alt=""></a>
+        <hr id="fhr" noshade color='black' size="6">
+        <ul>
+
+          <li><a href="#bio">биография</a></li>
+
+          <li><a href="#creative">творчество</a></li>
+
+          <li><a id="gen" href="#dest">направления <br> и жанры работ </a></li>
+
+
+        </ul>
+
+    </nav>
+
+
+    <img id="fix" src="images/Group 6.svg" class="cover1" alt="">
+    <img src="images/Андре_Массон_1959.jpg" class="cover" alt="">
+    <h4 id="bio">биография</h4>
+    <p>Bажный художник круга французских сюрреалистов. В начале 1920-х он активно работает в технике автоматического рисования — на бумаге появляются образы напрямую из воображения художника.
+    Вырос в Бельгии, он начал изучать изобразительное искусство в возрасте одиннадцати лет в Академии изящных искусств в Брюсселе под руководством Константа Монтальда, с 1912 обосновался в Париже, познакомился с Максом Жакобом.
+    Работы Массона хранятся в крупнейших музеях, включая Музей Гуггенхейма в Нью-Йорке и Центр Помпиду в Париже.</p>
+    <img src="images/mist-in-the-valley-of-the-arc-1956-1.jpg" class="cover" alt="">
+    <hr noshade color='black' size="6">
+    <h4 id="creative">творчество</h4>
+    <p>В юные годы Массон увлекается импрессионизмом  и символизмом, ар-нуво, модными идеями Ницше         и Вагнера. В апреле 1919 года он отправился в город Сере на юго-западе Франции, где зародился кубизм. Там с 1905 года работали Андре Дерен, Пабло Пикассо, Хуан Грис и многие другие художники.           В пейзажах, которые написаны Массоном в этот период, сильно чувствуется влияние Сезанна               и Ван Гога. В других работах – влияние пост-кубизма.</p>
+    <img src="images/ggg.jpg" class="cover" alt="">
+    <h1>!?...</h1>
+    <blockquote>
+    <p id="lit">  автоматический рисунок, символическая живопись 1961 </p>
+    </blockquote>
+    <img src="images/metamorphosis.jpg" class="vertical" alt="">
+    <img src="images/fishes.jpg" alt="">
+    <p>В 1951 году Массон посещает Венецию. В результате серии поездок в Италию появился альбом цветных литографий «Путешествие в Венецию» (1952)              и прекрасная серия итальянских пейзажей.</p>
+    <p>Влияние Массона чувствуется в творчестве Джексона Поллока и Аршиля Горького. Сам Массон  в Америке увлекся китайским искусством, широко представленным в музее Метрополитен                       в Нью-Йорке и в музее Бостона, Массачусетс.</p>
+    <img src="images/the-kill.jpg" class="cover" alt="">
+    <hr noshade color='black' size="6">
+    <h4 id="dest">направления и жанры работ</h4>
+    <p>Пробовал себя в различных направлениях                   и техниках: кубизм, сюрреализм, «автоматическая» живопись, абстрактный экспрессионизм, импрессионизм, символизм.</p>
+
+    <img class="list" id="first" src="images/battle-of-fishes.jpg" alt="">
+    <a href="https://www.wikiart.org/en/andre-masson/all-works#!#filterName:Genre_abstract,resultType:masonry"><img src="images/abstr.svg" id="ab" class="name" alt=""></a>
+    <img class="list" src="images/pomegranates-in-the-wind.jpg" class="cover" alt="">
+    <a href="https://www.wikiart.org/en/andre-masson/all-works#!#filterName:Genre_flower-painting,resultType:masonry"><img src="images/Цвeточный_нaтюpмopт.svg" id="fl" class="name" alt=""></a>
+    <img class="list" src="images/mist-in-the-valley-of-the-arc-1956.jpg" class="cover" alt="">
+    <a href="https://www.wikiart.org/en/andre-masson/all-works#!#filterName:Genre_landscape,resultType:masonry"><img src="images/пeйзaж.svg" id="ld" class="name" alt=""></a>
+    <img class="list" src="images/l-homme-embl-matique.jpg" class="cover" alt="">
+    <a href="https://www.wikiart.org/en/andre-masson/all-works#!#filterName:Genre_symbolic-painting,resultType:masonry"><img src="images/cимвoличecкaя_живoпиcь.svg" id="symb" class="name" alt=""></a>
+
+    <hr id="last" noshade color='black' size="6">
+    <footer>
+    <h2>Peintre, graveur, illustrateur et décorateur de théâtre français.</h2>
+    <p id="post"> mail@painterm.ru <br>
+       Ответим на любые вопросы в течении 24 часа.</p>
+    <p id="num">+7 (999) 123-4567
+       пн-пт 8.00-20.00</p>
+    <div class="div1">
+
+    <h6 id="right">all rights reserved</h6>
+    <h6 id="cookie">cookie notice</h6>
+    <h6 id="privacy">privacy policy</h6>
+    <img id="fb" src="images/fb.svg" alt="">
+    <img id="inst" src="images/inst.svg" alt="">
+    <img id="vk" src="images/vk.svg" alt="">
+    </div>
+    </footer>
+    </article>
+
+
+
+
+
+  </body>
+</html>
